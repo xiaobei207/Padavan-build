@@ -94,7 +94,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
         else
-        minidlna
         echo "CONFIG_FIRMWARE_INCLUDE_MINIDLNA=y" >> .config #MINIDLNA
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD-GO=y" >> .config #WIREGUARD-GO
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD-TOOLS=y" >> .config #WIREGUARD-GO
